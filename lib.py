@@ -12,7 +12,7 @@ def asciify(latex):
 
 def render_latex(latex):
     latex = asciify(latex)
-    os.system(f'latex2sixel "\${latex}\$"')
+    os.system(f'latex2sixel "\\${latex}\\$"')
 
 # Plot lattices
 # nth degree polynomials
