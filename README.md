@@ -1,0 +1,2 @@
+Install latex2sixel
+
